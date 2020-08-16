@@ -16,3 +16,11 @@ I guess that we now agree in saying that the price does now depend on what passe
  I think we can extract an attractivity score out of that. (to balance with the network the city has : is it remote (ex : Brest is kinda remote) ? is it well connected with tempting offers (like in Britanny people only pay 15€ when they are traveling less than 250km and are -26 years old) ?
  
  Let's see how this EDA goes. If it goes well with that first approach, I guess I'll extend it to other cities. 
+
+
+# First Steps
+1) Get API
+2) See how it goes - Want to query for trips ID for Rennes > Brest Fridays 6:00PM if possible
+3) For each trip - same origin same destination same hour : what's the price ?
+4) Compute median/average price
+5) See the results ... How does it go ?
