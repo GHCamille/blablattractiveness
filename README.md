@@ -24,3 +24,6 @@ I guess that we now agree in saying that the price does now depend on what passe
 3) For each trip - same origin same destination same hour : what's the price ?
 4) Compute median/average price
 5) See the results ... How does it go ?
+
+# Then build the architecture
+![Architecture GCP](https://github.com/GHCamille/blablattractivity/blob/master/Pictures/GoogleCloudArc.png)
