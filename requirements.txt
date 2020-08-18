@@ -1,0 +1,4 @@
+requests==2.24.0
+pandas==0.24.2
+gcsfs==0.6.2
+google-cloud-storage==1.30.0
