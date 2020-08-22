@@ -5,7 +5,7 @@ The objective of the project is to compute a KPI that demonstrates how attractiv
 # How is this even relevant ?
 It is : indeed as a Blablacar driver, I know myself that prices entered by drivers are based on what they think the passenger is ready to pay. The price need to be attractive because if it's not then the car is not full. For instance one might have 3 passengers for 10€ each while another will have 2 passengers for 12.5€ each. The first case is better for both the driver and the passengers. The only risk would be to have only 2 passengers, therefore second case would be better. But this case never happens. Why ? Well we notice that usually the cheapest trips are full. 
 
-# Ok, fine, but what's the link with attractivity ?
+# Ok, fine, but what's the link with attractiveness ?
 I guess that we now agree in saying that the price does now depend on what passengers and drivers agree to be "the worth of the city". 
 We can expect a price distribution that goes with most of the prices really cheap, and then have some higher prices, that are usually mistakes (prices suggested by the app, people trying the app for the first time, people who didn't check how much the competitors sell the trip, so they put the price far too expensive). Usually mistakes result in people don't booking the trip. We will study the following metrics to build our KPI : 
 
@@ -16,10 +16,11 @@ We can expect a price distribution that goes with most of the prices really chea
  - how many people by car (average/median) ? 
  - ratio nb-of-people/total-seats-in-the-car ? average/median -->
 
- Let's see how this EDA goes. 
+I think that combining can be a good starting point to building this KPI. Let's see how the EDA goes.
 
 # Let's go
 We will build a database of routes and keep track of all trips and their prices for a month.
+At first, I wanted to query the Blablacar API to check what cities have the highest number of trips every Friday. But that wasn't possible, because the API requires the origin and the destination to be cities. So I just decided to study the trips . 
 
 
 # First Steps
@@ -38,8 +39,14 @@ For now we have :
 
 ![Architecture GCP](https://github.com/GHCamille/blablattractivity/blob/master/Pictures/GoogleCloudArc.png)
 
-# What's next ?
 
+# What's next ?
 Our results will be really biased, in a way that it will not enable us to compare cities. There are far too many biases (like how connected the city is : is it connected to a train line ? plane ? how expensive is it to have a car in that city : is the parking ticket expensive ? is fuel expensive ?). It could be interesting to build a KPI that get us rid of these biases. But that would be for another study.
-That KPI aims at helping cities see their attractiveness evolution : are they getting more attractive with time ?
+
+The KPI we built has to be tracked over time, city by city.
+
+This study gave me ideas to compute an ecofriendliness KPI. Indeed, Blablacar is an ecofriendly mean of transport. Number of trips by Blablacar can be a useful data to study how ecofriendly the population living in a city is. 
+This study will be more complicated, I will have to gather other sources of data. 
+[A good place to start this new study.](https://blog.blablacar.fr/blablalife/lp/zeroemptyseats)
+
  
