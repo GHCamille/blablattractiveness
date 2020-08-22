@@ -36,7 +36,10 @@ If the number of trips on a route is inferior to the first quartile of the numbe
 3) ✅  Write the code for one route only.
 4) ✅ Integrate in the architecture, and test the CRON.
 5) ✅ Build a list of all the routes we will study.
+
 Ressources : [1](https://blog.blablacar.fr/newsroom/news/blablacar-lance-blablabus-a-destination-de-45-villes-en-france), [2](https://blog.blablacar.fr/newsroom/news/blablacar-et-ouibus-s-associent-pour-repondre-a-la-forte-demande-pendant-la-greve), [3](https://blog.blablacar.fr/newsroom/news/blablacar-reunit-un-demi-million-de-covoitureurs-depuis-debut-juin-et-relance-ses-blablabus)
+
+[IN PROGRESS] Code for routes selection.
 
 6) ❌ Data collection in a bucket. (1 month)
 7) ❌ Study the results : statistics on dataset. (✅ code ready)
