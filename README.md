@@ -20,7 +20,14 @@ I think that combining can be a good starting point to building this KPI. Let's 
 
 # Let's go
 We will build a database of routes and keep track of all trips and their prices for a month.
-At first, I wanted to query the Blablacar API to check what cities have the highest number of trips every Friday. But that wasn't possible, because the API requires the origin and the destination to be cities. So I just decided to study the trips . 
+
+At first, I wanted to query the Blablacar API to check which routes are the busiest. But that wasn't possible, because the API requires the origin and the destination to be cities. After some research, still impossible to get the data. So I decided to create my own map, based on the top 25 cities in France.
+
+I cannot study every city because I have a limit of 1000 queries per day to Blablacar, and then I also have a trickier limit to follow on Google Cloud Functions. Therefore I will build routes from these 25 cities from and EDA. 
+
+We will do a first study to select the routes we will choose between those 25 cities.
+
+If the number of trips on a route is inferior to the first quartile of the number of trips to the destination, I will not study this route. 
 
 
 # First Steps
@@ -47,6 +54,7 @@ The KPI we built has to be tracked over time, city by city.
 
 This study gave me ideas to compute an ecofriendliness KPI. Indeed, Blablacar is an ecofriendly mean of transport. Number of trips by Blablacar can be a useful data to study how ecofriendly the population living in a city is. 
 This study will be more complicated, I will have to gather other sources of data. 
+
 [A good place to start this new study.](https://blog.blablacar.fr/blablalife/lp/zeroemptyseats)
 
  
