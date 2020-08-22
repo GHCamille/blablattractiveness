@@ -34,12 +34,13 @@ If the number of trips on a route is inferior to the first quartile of the numbe
 1) ✅ Get API.
 2) ✅ Build the architecture.
 3) ✅  Write the code for one route only.
-3) ✅ Integrate in the architecture, and test the CRON.
-4) ✅ Build a list of all the routes we will study.
-2) 🔁 See how it goes - Want to query for trips ID for Rennes > Brest Fridays 6:00PM if possible
-3) For each trip - same origin same destination same hour : what's the price ?
-4) Compute median/average price
-5) See the results ... How does it go ?
+4) ✅ Integrate in the architecture, and test the CRON.
+5) ✅ Build a list of all the routes we will study.
+Ressources : [1](https://blog.blablacar.fr/newsroom/news/blablacar-lance-blablabus-a-destination-de-45-villes-en-france), [2](https://blog.blablacar.fr/newsroom/news/blablacar-et-ouibus-s-associent-pour-repondre-a-la-forte-demande-pendant-la-greve), [3](https://blog.blablacar.fr/newsroom/news/blablacar-reunit-un-demi-million-de-covoitureurs-depuis-debut-juin-et-relance-ses-blablabus)
+
+6) ❌ Data collection in a bucket. (1 month)
+7) ❌ Study the results : statistics on dataset. (✅ code ready)
+8) ❌ See the results ... How does it go ?
 
 # Build the architecture
 For now we have : 
