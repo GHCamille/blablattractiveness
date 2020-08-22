@@ -1,5 +1,6 @@
 
 
+
 # 🚗 Blablattractiveness  📈
 The objective of the project is to compute a KPI that demonstrates how attractive a city is for travelers. 
 
@@ -37,6 +38,8 @@ We chose the top 25 cities. It means we have 600 possible routes. We will do a s
 <img src="https://github.com/GHCamille/blablattractivity/blob/master/Pictures/blabla_shortlisted_cities.jpg" width="500" height="447">
 </p>
 
+We can only get info for 100 trips for each query. But actually, for now we haven't seen any route with more than 100 trips in a day. So it's ok, we will not deal with this problem. But we will keep record of the number of trips we get per route.
+
 
 # First Steps
 1) ✅ Get API.
@@ -44,12 +47,8 @@ We chose the top 25 cities. It means we have 600 possible routes. We will do a s
 3) ✅  Write the code for one route only.
 4) ✅ Integrate in the architecture, and test the CRON.
 5) ✅ Build a list of all the routes we will study.
-
-Ressources : [1](https://blog.blablacar.fr/newsroom/news/blablacar-lance-blablabus-a-destination-de-45-villes-en-france), [2](https://blog.blablacar.fr/newsroom/news/blablacar-et-ouibus-s-associent-pour-repondre-a-la-forte-demande-pendant-la-greve), [3](https://blog.blablacar.fr/newsroom/news/blablacar-reunit-un-demi-million-de-covoitureurs-depuis-debut-juin-et-relance-ses-blablabus)
-
-[IN PROGRESS] Code for routes selection.
-
-6) ❌ Data collection in a bucket. (1 month)
+5) [IN PROGRESS] Change the function to be sure it's working in GCP
+6) 🔁 Data collection in a bucket. (1 month)
 7) ❌ Study the results : statistics on dataset. (✅ code ready)
 8) ❌ See the results ... How does it go ?
 
