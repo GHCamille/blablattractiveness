@@ -35,7 +35,7 @@ We chose the top 25 cities. It means we have 15 511 210 043 330 985 984 000 000 
 
 ![Map of cities](https://github.com/GHCamille/blablattractivity/blob/master/Pictures/blabla_shortlisted_cities.jpg)
 
-<img src="https://github.com/GHCamille/blablattractivity/blob/master/Pictures/blabla_shortlisted_cities.jpg" width="800" height="456">
+<img class="center" src="https://github.com/GHCamille/blablattractivity/blob/master/Pictures/blabla_shortlisted_cities.jpg" width="800" height="456">
 
 
 
