@@ -33,7 +33,7 @@ We chose the top 25 cities. It means we have 15 511 210 043 330 985 984 000 000 
 
 ⚠️ We've actually chosen 24 cities because #20 is Saint-Denis, on La Réunion, so it will not be able to collect routes connecting it to another city of the top 25.
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1wQAuc4U81PC_ZbkvRnFPy6H5XdO_HKIy" width="640" height="480"></iframe>
+![Map of shortlisted cities](https://github.com/GHCamille/blablattractivity/blob/master/Pictures/blabla_shortlisted_cities.jpg)
 
 
 # First Steps
