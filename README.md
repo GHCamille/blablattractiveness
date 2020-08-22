@@ -27,8 +27,9 @@ I cannot study every city because I have a limit of 1000 queries per day to Blab
 
 We will do a first study to select the routes we will choose between those 25 cities.
 
-If the number of trips on a route is inferior to the first quartile of the number of trips to the destination, I will not study this route. 
+<!-- If the number of trips on a route is inferior to the first quartile of the number of trips to the destination, I will not study this route. -->
 
+We chose the top 25 cities. It means we have 15 511 210 043 330 985 984 000 000  possible routes. We will do a selection of the major routes.
 
 # First Steps
 1) ✅ Get API.
