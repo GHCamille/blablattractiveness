@@ -1,4 +1,5 @@
 
+
 # 🚗 Blablattractiveness  📈
 The objective of the project is to compute a KPI that demonstrates how attractive a city is for travelers. 
 
@@ -27,11 +28,10 @@ I cannot study every city because I have a limit of 1000 queries per day to Blab
 
 We will do a first study to select the routes we will choose between those 25 cities. 
 
-<!-- If the number of trips on a route is inferior to the first quartile of the number of trips to the destination, I will not study this route. -->
 
-We chose the top 25 cities. It means we have 15 511 210 043 330 985 984 000 000  possible routes, with 1000 API requests a day that leads us to 155 112 100 433 309 859 840 000 days (4 249 646 587 214 547 561 205 years) to do the study. We will do a selection of the major routes.
+We chose the top 25 cities. It means we have 600 possible routes. We will do a selection of the major routes.
 
-⚠️ We've actually chosen 24 cities because #20 is Saint-Denis, on La Réunion, so it will not be able to collect routes connecting it to another city of the top 25.
+⚠️ We've actually chosen 24 cities because #20 is Saint-Denis, on La Réunion, so it will not be able to collect routes connecting it to another city of the top 25. We therefore have 552 routes only.
 
 <img align="center" src="https://github.com/GHCamille/blablattractivity/blob/master/Pictures/blabla_shortlisted_cities.jpg" width="800" height="456">
 
