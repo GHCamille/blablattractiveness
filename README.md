@@ -34,6 +34,9 @@ We chose the top 25 cities. It means we have 600 possible routes. We will do a s
 
 ⚠️ We've actually chosen 24 cities because #20 is Saint-Denis, on La Réunion, so it will not be able to collect routes connecting it to another city of the top 25. We therefore have 552 routes only.
 
+⚠️ Actually less because the API request was blocked. One trip = one request. We deleted cities that are too close to other big cities. 
+
+
 <p align="center">
 <img src="https://github.com/GHCamille/blablattractivity/blob/master/Pictures/blabla_shortlisted_cities.jpg" width="500" height="447">
 </p>
