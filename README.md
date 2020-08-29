@@ -51,8 +51,7 @@ What we need to do also is to drop duplicates from the trip id, because of Blabl
 3) ✅  Write the code for one route only.
 4) ✅ Integrate in the architecture, and test the CRON.
 5) ✅ Build a list of all the routes we will study.
-5) [IN PROGRESS] Change the function to be sure it's working in GCP
-6) 🔁 Data collection in a bucket. (1 month)
+6) 🔁 Data collection in a bucket. (To check 01/10/2020)
 7) ❌ Study the results : statistics on dataset. (✅ code ready)
 8) ❌ See the results ... How does it go ?
 
